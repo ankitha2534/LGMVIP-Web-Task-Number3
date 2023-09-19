@@ -1,0 +1,101 @@
+.enroll{
+    text-align: center;
+    background-color: rgb(231, 33, 155);    
+    margin-top: 45px;
+    color: white;
+}
+::placeholder{
+    color: rgb(175, 173, 173);
+}
+.full{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.st1{
+    height: 550px;
+    width: 600px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.la2{
+    font-weight: 500;
+    font-size: 40px;
+    padding-left: 150px;
+}
+.la1{
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.in1{
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+}
+.bb{
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 50px;
+    padding: 2px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(44, 141, 216);
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bb1{
+    margin-top: 25px;
+    margin-left: 50px;
+    padding: 2px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(216, 53, 44);
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ver {
+    border: 2px solid rgb(15, 16, 15);
+    height: 500px;
+    align-items: center;   
+  }
+.reg{
+    height: 550px;
+    width: 600px;
+    margin-left: 20px;
+}
+.reg h1{
+    text-align: center;  
+    font-weight: 500;
+    font-size: 40px;
+}
+.complete{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.hori{
+    margin-right: 20px;
+}
+.complete img{
+    height: 200px;
+    width: 200px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+#female, #male, #html,#css,#js{
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <header class="enroll">
+           <h1>STUDENT ENROLLMENT FORM</h1>
+        </header>
+    <div class="full">
+        <form id="enrollment-form">              
+        <div class="st1">                           
+        <table>      
+            <tr><td colspan="2"><label class="la2">Register Here!</label></td></tr>  
+            <tr>
+            <td><label class="la1">Name</label></td>
+            <td><input class="in1" id="name" type="name" placeholder="Ankitha" required><br></td>
+            </tr>
+            <tr>
+            <td><label class="la1">Email</label></td>
+            <td><input class="in1" id="email" type="email" placeholder="ankitha@gmail.com" required><br></td>
+            </tr>
+            <tr>
+            <td><label class="la1">Website</label></td>
+            <td><input class="in1" id="website" type="text" placeholder="xyz.com" required><br></td>
+            </tr>
+            <tr>
+            <td><label class="la1">Image Link</label></td>
+            <td><input class="in1" id="image" type="url" placeholder="Enter your Image Link" required><br></td>
+            </tr>
+            <tr>
+            <td><label class="la1">Gender</label></td>
+            <td>
+            <input type="radio" name="gender" value="Female" id="female" name="r1"><label class="la1">Female</label>
+            <input type="radio" name="gender" value="Male" id="male" name="r1"><label class="la1">Male</label><br></td>
+            </tr>    
+            <tr>
+            <td><label class="la1">Skills</label></td>
+            <td>
+            <input id="html" name="skills" value="HTML" type="checkbox"><label class="la1">HTML</label>
+            <input id="css" name="skills" value="CSS" type="checkbox"><label class="la1">CSS</label>
+            <input id="js" name="skills" value="JavaScript" type="checkbox"><label class="la1">JavaScript</label></td><br><br>            
+            </tr>
+            <tr>
+            <td><button class="bb">Enroll Student</button></td>
+           <td><button class="bb1">Clear</button></td>
+            </tr>   
+        </table>
+        </div>
+        </form> 
+        <div class="ver"></div>  
+        <div class="reg">
+            <h1>
+                Registered Students
+            </h1>
+            <ul id="student-list"></ul>
+        </div>
+    </div>   
+    <script src="script3.js"></script>  
+    </body>
+</html>
